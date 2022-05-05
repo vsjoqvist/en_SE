@@ -1,5 +1,5 @@
 # en_SE
-en_SE locale for linux, with some personal touches (such as "." as decimal point)
+fork of https://github.com/u296/en_SE with "," as a decimalpoint seperator instead of "."
 
 ## Steps
 
@@ -9,4 +9,4 @@ locale, either do it through the GUI or write `LANG=en_SE.UTF-8` in the file `/e
 
 Now, to fix key composing, add the line `en_US.UTF-8/Compose: en_SE.UTF-8` to the file `/usr/share/X11/locale/compose.dir`
 
-Now you should be done.
+Det borde funka nu :D
